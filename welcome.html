@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expense Tracker</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+
+        h1,
+        h2 {
+            text-align: center;
+        }
+
+        @media screen and (max-width: 768px) {
+            .container {
+                padding: 10px;
+            }
+
+            h1,
+            h2 {
+                font-size: 24px;
+            }
+
+            .input-all {
+                flex-direction: column;
+                align-items: center;
+                padding: 10px;
+            }
+        }
+
+        @media screen and (max-width: 480px) {
+            .container {
+                padding: 5px;
+            }
+
+            h1,
+            h2 {
+                font-size: 20px;
+            }
+
+            .input-all {
+                flex-direction: column;
+                align-items: center;
+                padding: 5px;
+            }
+        }
+    </style>
+</head>
+
+<body class="ab">
+    <div class="container">
+        <h1 class="abc">Expense Tracker</h1>
+        <div class="input-all">
+            <label for="Category-select">Category</label>
+            <select id="Category-select">
+                <option value="food and Beverage">Food and Beverage</option>
+                <option value="Rent">Rent</option>
+                <option value="Transport">Transport</option>
+                <option value="Bills">Bills</option>
+            </select>
+            <label for="amount-input">Amount:</label>
+            <input type="number" name="" id="amount-input">
+            <label for="date-input">Date</label>
+            <input type="date" name="" id="date-input">
+            <button id="btn" class="btn1">Add</button>
+        </div>
+        <div class="expense">
+            <h2 class="abc">Daily Expense List</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Category</th>
+                        <th>Amount</th>
+                        <th>Date</th>
+                        <th>Delete</th>
+                    </tr>
+                </thead>
+                <tbody id="expensebody"></tbody>
+                <tfoot>
+                    <tr>
+                        <td>Total:</td>
+                        <td id="total-amount"></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                </tfoot>
+            </table>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>

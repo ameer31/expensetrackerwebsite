@@ -1,0 +1,125 @@
+.part1{
+    display: inline-block;
+    border: 1px solid white;
+    background-color:#B9D9EB;
+    margin: 6%;
+    border-radius: 20px;
+    padding: 5%;
+}
+body{
+    background-color:#7CB9E8; 
+}
+
+#semail {
+    padding: 10px;
+    margin: 20px;
+    border-radius: 10px;
+
+}
+
+#spass {
+    padding: 10px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.btn{
+    margin: 10px; 
+     padding: 10px;
+    border-radius: 10px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+ h1{
+    font-family: fantasy;
+ }
+
+ 
+ #lemail {
+    padding: 10px;
+    margin: 20px;
+    border-radius: 10px;
+
+}
+
+#lpass {
+    padding: 10px;
+    margin: 20px;
+    border-radius: 10px;
+}
+.ab{
+    font-family:Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+.abc{
+    text-align: center;
+}
+.input-all{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+#date-input {
+    border-radius: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 10px;
+}
+
+#Category-select {
+    border-radius: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 10px;
+}
+
+
+.input-all label{
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+
+}
+.input-all input[type="number"], input-all[type="date"]{
+    border-radius: 20px; 
+     border: color(srgb-linear   green blue); 
+     box-sizing: border-box; 
+    padding: 10px;
+}
+ .btn1{
+    padding: 10px 20px;
+    background-color: #7CB9E8;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+
+}
+
+
+th , td{
+    border:1px solid white;
+    padding: 12px;
+    text-align: left;
+}
+
+th{
+    background-color:#a9d1ef;
+    color:black;
+}
+
+tfoot td{
+    font-weight: bold;
+}
+
+#amount-input{
+    border-radius: 20px;
+}
+
+
+
+
